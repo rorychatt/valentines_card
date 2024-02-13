@@ -1,0 +1,67 @@
+:root {
+    --first-color: #e0ffcd;
+    --second-color: #fdffcd;
+    --third-color: #ffebbb;
+    --fourth-color: #ffcab0;
+}
+
+body {
+    background: linear-gradient(
+        to top right,
+        var(--first-color),
+        var(--second-color)
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.greeting p{
+    font-size: 4rem;
+}
+
+.container {
+    border-width: 1vh;
+    border-style: solid;
+    border-image: linear-gradient(
+            to bottom,
+            var(--fourth-color),
+            var(--third-color)
+        )
+        1;
+    padding: 2vh;
+}
+
+.open-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.open-me p,
+.valentine-card p {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    text-align: center;
+    font-size: 4vh;
+}
+
+.valentine-card img {
+    width: 100%;
+}
+
+.cat-emoji {
+    font-size: 10rem;
+}
+
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="greeting">
+        <p class="greeting-text cedarville-cursive-regular">Дорогая Лена!</p>
+    </div>
+    <div class="container">
+        <div class="open-me" onclick="handleOpen()">
+            <div class="cat-emoji">&#128571;</div>
+            <p class="cedarville-cursive-regular">Нажми на меня</p>
+        </div>
+        <div class="valentine-card cedarville-cursive-regular" hidden>
+            <div class="cat-greeting">
+                <p>C днем Святого Валентина!</p>
+                <img src="https://cdn.pixabay.com/animation/2023/10/20/11/35/11-35-55-636_512.gif" alt="cat" onclick="handleCatOpen()">
+            </div>
+            <div class="cat-valentine-greeting" hidden>
+                <p>Ты прекрасный человек и я очень рад что ты появилась в моей жизни!</p>
+                <p>Будь счастлива!</p>
+                <p>-Твой мяу</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
